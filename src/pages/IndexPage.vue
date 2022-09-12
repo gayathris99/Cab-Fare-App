@@ -1,11 +1,15 @@
 <template>
-  <q-page> </q-page>
+  <q-page class="row">
+    <div class="col-md-4 col-sm-12">
+      <cab-form />
+    </div>
+  </q-page>
 </template>
 
 <script>
-import { defineComponent } from "vue";
-
-export default defineComponent({
+import CabForm from "components/CabForm.vue";
+export default {
   name: "IndexPage",
-});
+  components: { CabForm },
+};
 </script>

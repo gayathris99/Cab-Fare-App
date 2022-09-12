@@ -5,9 +5,45 @@ body {
   font-family: "Raleway", sans-serif;
   margin: 0 auto;
   max-width: 1500px;
-} //Font Size
+}
+// Box-shadow
+.card-shadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+//Border Radius
+.br-40 {
+  border-radius: 40px;
+}
+.br-30 {
+  border-radius: 20px;
+}
+.br-20 {
+  border-radius: 20px;
+}
+.br-10 {
+  border-radius: 10px;
+}
+//Font Size
+.fs-36 {
+  font-size: 36px;
+}
 .fs-32 {
   font-size: 32px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-16 {
+  font-size: 16px;
 }
 //Font Weights
 .fw-800 {
@@ -28,7 +64,16 @@ body {
 .fw-300 {
   font-weight: 300;
 }
-
+//Background
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}
+.bg-primary {
+  background-color: $primary;
+}
 .text-whitesmoke {
   color: whitesmoke;
+}
+.text-primary {
+  color: $primary;
 }
