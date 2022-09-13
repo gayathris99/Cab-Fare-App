@@ -21,7 +21,7 @@
             @update:model-value="onSelectDate"
           />
         </q-btn-dropdown>
-        <div v-if="scheduleDate" class="fw-600 fs-20 q-ml-md">
+        <div v-if="scheduleDate" class="fw-600 fs-20 q-ml-md q-mt-xs">
           {{ formattedDate }}
         </div>
       </div>
@@ -40,7 +40,7 @@
             @update:model-value="onSelectTime"
           />
         </q-btn-dropdown>
-        <div v-if="scheduleTime" class="fw-600 fs-20 q-ml-md">
+        <div v-if="scheduleTime" class="fw-600 fs-20 q-ml-md q-mt-xs">
           {{ formattedTime }}
         </div>
       </div>

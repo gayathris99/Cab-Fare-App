@@ -1,5 +1,5 @@
 <template>
-  <div class="q-ma-lg card-shadow br-20 q-pa-md">
+  <div class="q-ma-lg card-shadow br-20 q-pa-md bg-whitesmoke">
     <div class="fw-500 fs-36">Let's start our journey</div>
     <!-- Pickup -->
     <q-input

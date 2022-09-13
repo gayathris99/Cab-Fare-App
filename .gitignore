@@ -2,9 +2,10 @@
 .thumbs.db
 node_modules
 .vscode
-
+.env
 # Quasar core related directories
 .quasar
+/dist
 
 # Cordova related directories and files
 /src-cordova/node_modules
